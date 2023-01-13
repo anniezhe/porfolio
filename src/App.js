@@ -125,12 +125,29 @@ function App() {
           >
             <Tab eventKey="portfolioContent" title="Portfolio">
               <ListGroup variant="flush">
-                <ListGroup.Item>Cras justo odio</ListGroup.Item>
+                <ListGroup.Item>
+                  <img src="github.png" alt="Computer Science Club's github repository" className='tab' />
+                  <p>
+                  Two student executives at CSS Club and I created our school club's website. We used HTML/CSS, JavaScript, and Figma to make the website from scratch. 
+                  To keep our github repository's issues clutter-free, we automate to delete any branches and tickets after they reach a certain amount of days of not being addressed or used.
+                  We have reached out to a couple of people for assistance. All credits are listed in the github's "Contributors" section in the README document. </p>
+                  <Button variant="contained" href="https://github.com/jjcss/CSS_Website" target="_blank" rel="noreferrer noopener">
+                    Club's Github Repo
+                  </Button>
+                </ListGroup.Item>
               </ListGroup>
             </Tab>
             <Tab eventKey="activities" title="Articles">
               <ListGroup variant="flush">
-                <ListGroup.Item>Exam</ListGroup.Item>
+                <ListGroup.Item>
+                  <img src='article.png' alt="My article webpage" className='tab' />
+                  <p>
+                    I wrote a letter to all job seekers. The letter is published on LinkedIn. Click on "LinkedIn Article" button. It will take you to the article. 
+                  </p>
+                  <Button variant="contained" href="https://www.linkedin.com/pulse/dear-people-who-looking-jobs-annie-he/" target="_blank" rel="noreferrer noopener" className="text">
+                    LinkedIn Article
+                  </Button>
+                </ListGroup.Item>
               </ListGroup>
             </Tab>
           </Tabs>
